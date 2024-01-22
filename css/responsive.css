@@ -1,0 +1,6 @@
+@media only screen and (max-width: 576px) {
+    .dis-course-card {
+        max-width: 90%;
+        max-height: auto;
+    }
+}

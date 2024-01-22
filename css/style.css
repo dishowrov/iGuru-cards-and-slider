@@ -1,6 +1,9 @@
+.dis-card-item-wrapper {
+  max-height: 475px;
+}
+
 .dis-course-card {
   max-width: 355px;
-  max-height: 475px;
   margin: 45px auto;
   position: relative;
   box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.08);
@@ -156,6 +159,9 @@
   -moz-transition: all linear 0.3s;
   -ms-transition: all linear 0.3s;
   -o-transition: all linear 0.3s;
+}
+.dis-course-card .dis-course-card-details .dis-course-card-info h3.dis-course-card-title a:hover {
+  color: #00BDA6;
 }
 .dis-course-card .dis-course-card-details .dis-course-card-meta {
   display: flex;
