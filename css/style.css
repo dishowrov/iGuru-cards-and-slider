@@ -1,48 +1,47 @@
 .dis-card-item-wrapper {
   max-height: 475px;
 }
-
-.dis-course-card {
+.dis-card-item-wrapper .dis-course-card {
   max-width: 355px;
   margin: 45px auto;
   position: relative;
   box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.08);
 }
-.dis-course-card:hover .dis-course-card-details {
+.dis-card-item-wrapper .dis-course-card:hover .dis-course-card-details {
   background-color: #fff;
 }
-.dis-course-card:hover .dis-course-card-details .dis-course-card-info h4.dis-course-mentor-name a {
+.dis-card-item-wrapper .dis-course-card:hover .dis-course-card-details .dis-course-card-info h4.dis-course-mentor-name a {
   color: #2C2C2C;
 }
-.dis-course-card:hover .dis-course-card-details .dis-course-card-info h3.dis-course-card-title a {
+.dis-card-item-wrapper .dis-course-card:hover .dis-course-card-details .dis-course-card-info h3.dis-course-card-title a {
   color: #2C2C2C;
 }
-.dis-course-card:hover .dis-course-card-details .dis-course-card-meta {
+.dis-card-item-wrapper .dis-course-card:hover .dis-course-card-details .dis-course-card-meta {
   border-top: 1px solid #E5E5E5;
 }
-.dis-course-card:hover .dis-course-card-details .dis-course-card-meta h6.dis-course-meta-students {
+.dis-card-item-wrapper .dis-course-card:hover .dis-course-card-details .dis-course-card-meta h6.dis-course-meta-students {
   color: #2C2C2C;
 }
-.dis-course-card:hover .dis-course-card-details .dis-course-card-meta h6.dis-course-meta-students i {
+.dis-card-item-wrapper .dis-course-card:hover .dis-course-card-details .dis-course-card-meta h6.dis-course-meta-students i {
   color: #FF6D34;
 }
-.dis-course-card:hover .dis-course-card-details .dis-course-card-meta h6.dis-course-meta-reviews {
+.dis-card-item-wrapper .dis-course-card:hover .dis-course-card-details .dis-course-card-meta h6.dis-course-meta-reviews {
   color: #2C2C2C;
 }
-.dis-course-card:hover .dis-course-card-details .dis-course-card-meta h6.dis-course-meta-reviews i {
+.dis-card-item-wrapper .dis-course-card:hover .dis-course-card-details .dis-course-card-meta h6.dis-course-meta-reviews i {
   color: #FF6D34;
 }
-.dis-course-card a {
+.dis-card-item-wrapper .dis-course-card a {
   text-decoration: none;
 }
-.dis-course-card img {
+.dis-card-item-wrapper .dis-course-card img {
   width: 100%;
   height: 100%;
 }
-.dis-course-card .dis-course-card-thumbnail {
+.dis-card-item-wrapper .dis-course-card .dis-course-card-thumbnail {
   position: relative;
 }
-.dis-course-card .dis-course-card-thumbnail::before {
+.dis-card-item-wrapper .dis-course-card .dis-course-card-thumbnail::before {
   position: absolute;
   content: "";
   background-color: rgba(17, 17, 17, 0.4);
@@ -56,27 +55,27 @@
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 }
-.dis-course-card .dis-course-card-thumbnail img {
+.dis-card-item-wrapper .dis-course-card .dis-course-card-thumbnail img {
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 }
-.dis-course-card .dis-course-card-categories {
+.dis-card-item-wrapper .dis-course-card .dis-course-card-categories {
   position: absolute;
   top: -9px;
   left: 20px;
 }
-.dis-course-card .dis-course-card-categories ul {
+.dis-card-item-wrapper .dis-course-card .dis-course-card-categories ul {
   padding: 0;
   margin: 0;
 }
-.dis-course-card .dis-course-card-categories ul li {
+.dis-card-item-wrapper .dis-course-card .dis-course-card-categories ul li {
   list-style-type: none;
   display: inline-block;
 }
-.dis-course-card .dis-course-card-categories ul li a {
+.dis-card-item-wrapper .dis-course-card .dis-course-card-categories ul li a {
   color: #FFFFFF;
   font-family: "Quicksand", sans-serif;
   font-weight: 600;
@@ -95,10 +94,10 @@
   -ms-transition: all linear 0.3s;
   -o-transition: all linear 0.3s;
 }
-.dis-course-card .dis-course-card-categories ul li a:hover {
+.dis-card-item-wrapper .dis-course-card .dis-course-card-categories ul li a:hover {
   background-color: #00BDA6;
 }
-.dis-course-card .dis-course-card-details {
+.dis-card-item-wrapper .dis-course-card .dis-course-card-details {
   position: absolute;
   bottom: -3px;
   left: 0;
@@ -115,15 +114,15 @@
   -ms-border-radius: 0 0 10px 10px;
   -o-border-radius: 0 0 10px 10px;
 }
-.dis-course-card .dis-course-card-details .dis-course-card-info {
+.dis-card-item-wrapper .dis-course-card .dis-course-card-details .dis-course-card-info {
   padding: 0 20px 15px 20px;
 }
-.dis-course-card .dis-course-card-details .dis-course-card-info .dis-course-card-mentor {
+.dis-card-item-wrapper .dis-course-card .dis-course-card-details .dis-course-card-info .dis-course-card-mentor {
   height: 35px;
   width: 35px;
   margin-top: -18px;
 }
-.dis-course-card .dis-course-card-details .dis-course-card-info .dis-course-card-mentor img {
+.dis-card-item-wrapper .dis-course-card .dis-course-card-details .dis-course-card-info .dis-course-card-mentor img {
   border: 2px solid #FFFFFF;
   border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -131,11 +130,11 @@
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
 }
-.dis-course-card .dis-course-card-details .dis-course-card-info h4.dis-course-mentor-name {
+.dis-card-item-wrapper .dis-course-card .dis-course-card-details .dis-course-card-info h4.dis-course-mentor-name {
   padding: 15px 0;
   margin: 0;
 }
-.dis-course-card .dis-course-card-details .dis-course-card-info h4.dis-course-mentor-name a {
+.dis-card-item-wrapper .dis-course-card .dis-course-card-details .dis-course-card-info h4.dis-course-mentor-name a {
   color: #FFFFFF;
   font-size: 16px;
   font-weight: 400;
@@ -145,12 +144,12 @@
   -ms-transition: all linear 0.3s;
   -o-transition: all linear 0.3s;
 }
-.dis-course-card .dis-course-card-details .dis-course-card-info h3.dis-course-card-title {
+.dis-card-item-wrapper .dis-course-card .dis-course-card-details .dis-course-card-info h3.dis-course-card-title {
   margin: 0;
   height: 65px;
   line-height: 27px;
 }
-.dis-course-card .dis-course-card-details .dis-course-card-info h3.dis-course-card-title a {
+.dis-card-item-wrapper .dis-course-card .dis-course-card-details .dis-course-card-info h3.dis-course-card-title a {
   color: #FFFFFF;
   font-weight: 800;
   font-size: 19px;
@@ -160,10 +159,10 @@
   -ms-transition: all linear 0.3s;
   -o-transition: all linear 0.3s;
 }
-.dis-course-card .dis-course-card-details .dis-course-card-info h3.dis-course-card-title a:hover {
+.dis-card-item-wrapper .dis-course-card .dis-course-card-details .dis-course-card-info h3.dis-course-card-title a:hover {
   color: #00BDA6;
 }
-.dis-course-card .dis-course-card-details .dis-course-card-meta {
+.dis-card-item-wrapper .dis-course-card .dis-course-card-details .dis-course-card-meta {
   display: flex;
   align-items: center;
   border-top: 1px solid rgba(255, 255, 255, 0.3);
@@ -174,7 +173,7 @@
   -ms-transition: inherit;
   -o-transition: inherit;
 }
-.dis-course-card .dis-course-card-details .dis-course-card-meta h6.dis-course-meta-students {
+.dis-card-item-wrapper .dis-course-card .dis-course-card-details .dis-course-card-meta h6.dis-course-meta-students {
   margin: 0;
   color: #FFFFFF;
   font-size: 14px;
@@ -186,10 +185,10 @@
   -ms-transition: inherit;
   -o-transition: inherit;
 }
-.dis-course-card .dis-course-card-details .dis-course-card-meta h6.dis-course-meta-students i {
+.dis-card-item-wrapper .dis-course-card .dis-course-card-details .dis-course-card-meta h6.dis-course-meta-students i {
   color: inherit;
 }
-.dis-course-card .dis-course-card-details .dis-course-card-meta h6.dis-course-meta-reviews {
+.dis-card-item-wrapper .dis-course-card .dis-course-card-details .dis-course-card-meta h6.dis-course-meta-reviews {
   margin: 0;
   color: #FFFFFF;
   font-size: 14px;
@@ -200,17 +199,17 @@
   -ms-transition: inherit;
   -o-transition: inherit;
 }
-.dis-course-card .dis-course-card-details .dis-course-card-meta h6.dis-course-meta-reviews i {
+.dis-card-item-wrapper .dis-course-card .dis-course-card-details .dis-course-card-meta h6.dis-course-meta-reviews i {
   color: inherit;
 }
-.dis-course-card .dis-course-card-details .dis-course-card-meta button {
+.dis-card-item-wrapper .dis-course-card .dis-course-card-details .dis-course-card-meta button {
   flex-grow: 1;
   text-align: right;
   padding: 10px;
   background-color: transparent;
   border: none;
 }
-.dis-course-card .dis-course-card-details .dis-course-card-meta button a {
+.dis-card-item-wrapper .dis-course-card .dis-course-card-details .dis-course-card-meta button a {
   color: #FFFFFF;
   font-family: "Open Sans", sans-serif;
   background-color: #00BDA6;
@@ -227,7 +226,7 @@
   -ms-transition: all linear 0.3s;
   -o-transition: all linear 0.3s;
 }
-.dis-course-card .dis-course-card-details .dis-course-card-meta button a:hover {
+.dis-card-item-wrapper .dis-course-card .dis-course-card-details .dis-course-card-meta button a:hover {
   color: #00BDA6;
   background-color: transparent;
 }
