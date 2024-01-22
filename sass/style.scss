@@ -1,34 +1,30 @@
 .dis-course-card {
     max-width: 455px;
-    height: 570px;
     margin: 45px auto;
     position: relative;
     box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.08);
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-
-    &::before {
-        position: absolute;
-        content: '';
-        background-color: rgba(17, 17, 17, 0.4);
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        border-radius: inherit;
-        -webkit-border-radius: inherit;
-        -moz-border-radius: inherit;
-        -ms-border-radius: inherit;
-        -o-border-radius: inherit;
-    }
 
     &:hover {
         .dis-course-card-details {
             background-color: #fff;
+
+            .dis-course-card-info {
+                h4.dis-course-mentor-name {
+                    a {
+                        color: #2C2C2C;
+                    }
+                }
+
+                h3.dis-course-card-title {
+                    a {
+                        color: #2C2C2C;
+                    }
+                }
+            }
+
+
         }
+
     }
 
     a {
@@ -41,13 +37,29 @@
     }
 
     .dis-course-card-thumbnail {
+        position: relative;
+
+        &::before {
+            position: absolute;
+            content: '';
+            background-color: rgba(17, 17, 17, 0.4);
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+        }
+
         img {
             border-radius: 10px;
             -webkit-border-radius: 10px;
             -moz-border-radius: 10px;
             -ms-border-radius: 10px;
             -o-border-radius: 10px;
-
         }
     }
 
@@ -55,7 +67,6 @@
         position: absolute;
         top: -9px;
         left: 20px;
-        z-index: 99;
 
         ul {
             padding: 0;
@@ -96,10 +107,9 @@
         position: absolute;
         bottom: 0;
         left: 0;
-        background: transparent;
+        // background: transparent;
         background: red;
         width: 100%;
-        z-index: 99;
         transition: all linear 0.3s;
         -webkit-transition: all linear 0.3s;
         -moz-transition: all linear 0.3s;
@@ -112,11 +122,12 @@
         -o-border-radius: 0 0 10px 10px;
 
         .dis-course-card-info {
-            padding: 25px 20px;
+            padding: 0 20px 25px 20px;
 
             .dis-course-card-mentor {
                 height: 35px;
                 width: 35px;
+                margin-top: -18px;
 
                 img {
                     border: 2px solid #FFFFFF;
@@ -128,12 +139,19 @@
                 }
             }
 
-            h4 {
+            h4.dis-course-mentor-name {
                 padding: 15px 0;
                 margin: 0;
 
                 a {
                     color: #FFFFFF;
+                    font-size: 16px;
+                    font-weight: 400;
+                    transition: all linear 0.3s;
+                    -webkit-transition: all linear 0.3s;
+                    -moz-transition: all linear 0.3s;
+                    -ms-transition: all linear 0.3s;
+                    -o-transition: all linear 0.3s;
                 }
             }
 
@@ -142,6 +160,13 @@
 
                 a {
                     color: #FFFFFF;
+                    font-weight: 800;
+                    font-size: 19px;
+                    transition: all linear 0.3s;
+                    -webkit-transition: all linear 0.3s;
+                    -moz-transition: all linear 0.3s;
+                    -ms-transition: all linear 0.3s;
+                    -o-transition: all linear 0.3s;
                 }
             }
         }
@@ -151,6 +176,11 @@
             align-items: center;
             border-top: 1px solid rgba(255, 255, 255, 0.3);
             padding: 10px 20px;
+            transition: all linear 0.3s;
+            -webkit-transition: all linear 0.3s;
+            -moz-transition: all linear 0.3s;
+            -ms-transition: all linear 0.3s;
+            -o-transition: all linear 0.3s;
 
             h6.dis-course-meta-students {
                 margin: 0;
