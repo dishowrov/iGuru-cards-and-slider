@@ -1,19 +1,35 @@
 .dis-course-card {
     max-width: 455px;
-    max-height: 570px;
+    height: 570px;
     margin: 45px auto;
     position: relative;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 
-    // >a {
-    //     transition: 0.3s linear;
-    //     -webkit-transition: 0.3s linear;
-    //     -moz-transition: 0.3s linear;
-    //     -ms-transition: 0.3s linear;
-    //     -o-transition: 0.3s linear;
-    // }
-    // &:hover .dis-course-card-details {
-    //     background: #FFFFFF;
-    // }
+    &::before {
+        position: absolute;
+        content: '';
+        background-color: rgba(17, 17, 17, 0.4);
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: inherit;
+        -webkit-border-radius: inherit;
+        -moz-border-radius: inherit;
+        -ms-border-radius: inherit;
+        -o-border-radius: inherit;
+    }
+
+    &:hover {
+        .dis-course-card-details {
+            background-color: #fff;
+        }
+    }
 
     a {
         text-decoration: none;
@@ -31,6 +47,7 @@
             -moz-border-radius: 10px;
             -ms-border-radius: 10px;
             -o-border-radius: 10px;
+
         }
     }
 
@@ -38,6 +55,7 @@
         position: absolute;
         top: -9px;
         left: 20px;
+        z-index: 99;
 
         ul {
             padding: 0;
@@ -60,6 +78,15 @@
                     -moz-border-radius: 5px;
                     -ms-border-radius: 5px;
                     -o-border-radius: 5px;
+                    transition: all linear 0.3s;
+                    -webkit-transition: all linear 0.3s;
+                    -moz-transition: all linear 0.3s;
+                    -ms-transition: all linear 0.3s;
+                    -o-transition: all linear 0.3s;
+
+                    &:hover {
+                        background-color: #00BDA6;
+                    }
                 }
             }
         }
@@ -70,8 +97,18 @@
         bottom: 0;
         left: 0;
         background: transparent;
-        max-height: 180px;
         width: 100%;
+        z-index: 99;
+        transition: all linear 0.3s;
+        -webkit-transition: all linear 0.3s;
+        -moz-transition: all linear 0.3s;
+        -ms-transition: all linear 0.3s;
+        -o-transition: all linear 0.3s;
+        border-radius: 0 0 10px 10px;
+        -webkit-border-radius: 0 0 10px 10px;
+        -moz-border-radius: 0 0 10px 10px;
+        -ms-border-radius: 0 0 10px 10px;
+        -o-border-radius: 0 0 10px 10px;
 
         .dis-course-card-info {
             padding: 25px 20px;
@@ -111,9 +148,42 @@
         .dis-course-card-meta {
             display: flex;
             align-items: center;
+            border-top: 1px solid rgba(255, 255, 255, 0.3);
+            padding: 10px 20px;
+
+            h6.dis-course-meta-students {
+                margin: 0;
+                font-family: 'Open Sans', sans-serif;
+                color: #FFFFFF;
+                font-size: 14px;
+                font-weight: 600;
+                padding-right: 25px;
+            }
+
+            h6.dis-course-meta-reviews {
+                margin: 0;
+                font-family: 'Open Sans', sans-serif;
+                color: #FFFFFF;
+                font-size: 14px;
+                font-weight: 600;
+            }
 
             button {
                 flex-grow: 1;
+                text-align: right;
+                padding: 10px;
+                background-color: transparent;
+                border: none;
+
+                a {
+                    background-color: #00BDA6;
+                    padding: 8px 10px;
+                    border-radius: 5px;
+                    -webkit-border-radius: 5px;
+                    -moz-border-radius: 5px;
+                    -ms-border-radius: 5px;
+                    -o-border-radius: 5px;
+                }
             }
         }
     }
