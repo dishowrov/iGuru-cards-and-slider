@@ -1,6 +1,5 @@
 .dis-course-card {
-    max-width: 355px;
-    margin: 45px auto;
+    margin: 0 auto;
     position: relative;
     box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.08);
 
@@ -272,8 +271,7 @@
 }
 
 .dis-instructor-card {
-    max-width: 355px;
-    margin: 25px auto;
+    margin: 0 auto;
     cursor: pointer;
     background-color: #f9f9f9;
     border-radius: 10px;
@@ -410,8 +408,7 @@
 }
 
 .dis-blog-card {
-    max-width: 355px;
-    margin: 25px auto;
+    margin: 0 auto;
 
     .dis-blog-card-media {
         overflow: hidden;
@@ -591,14 +588,31 @@
 
                 &:hover {
                     color: #00BDA6;
+                    &::after {
+                        width: 100%;
+                        background-color: currentColor;
+                    }
                 }
 
-                &::after, &::before {
+                &::before {
                     content: '';
                     position: absolute;
-                    bottom: -7px;
+                    bottom: -2px;
                     left: 50%;
-                    width: 0%;
+                    width: 100%;
+                    height: 3px;
+                    border-radius: 3px;
+                    background-color: #dfdfdf;
+                    transform: translateX(-50%);
+                    transition: width 0.35s ease-in-out;
+                }
+
+                &::after {
+                    content: '';
+                    position: absolute;
+                    bottom: -2px;
+                    left: 50%;
+                    width: 0;
                     height: 3px;
                     border-radius: 3px;
                     background-color: currentColor;
@@ -606,10 +620,6 @@
                     transition: width 0.35s ease-in-out;
                 }
 
-                &::before {
-                    width: 100%;
-                    background: #dfdfdf;
-                }
             }
         }
     }
