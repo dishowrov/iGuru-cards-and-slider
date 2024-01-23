@@ -529,4 +529,8 @@
   background-color: currentColor;
   transform: translateX(-50%);
   transition: width 0.35s ease-in-out;
+}
+
+.dis-categories-slider-container {
+  background-color: tomato;
 }/*# sourceMappingURL=style.css.map */
