@@ -3,12 +3,13 @@ $(function () {
     owl.owlCarousel({
         items: 5,
         margin: 10,
+        loop: true,
         nav: true,
         dots: false,
         navText: [
-            "<i aria-hidden='true' class='fas fa-chevron-left'></i>",
-            
-            "<i aria-hidden='true' class='fas fa-chevron-right'></i>",
+            '<i class="fa fa-angle-left" aria-hidden="true"></i>',
+
+            '<i class="fa fa-angle-right" aria-hidden="true"></i>',
         ],
         responsive: {
             0: {
