@@ -1,13 +1,14 @@
 @media only screen and (max-width: 576px) {
-    .dis-course-card {
-        max-width: 90%;
-    }
+  .dis-course-card  {
+    max-width: 90%;
+  }
 
-    .dis-card-item-wrapper .dis-course-card .dis-course-card-details .dis-course-card-info h3.dis-course-card-title {
-        height: 55px;
-        line-height: 25px;
-      }
-      .dis-card-item-wrapper .dis-course-card .dis-course-card-details .dis-course-card-info h3.dis-course-card-title a {
-        font-size: 16px;
-      }
+  .dis-card-item-wrapper .dis-course-card .dis-course-card-details .dis-course-card-info h3.dis-course-card-title {
+    height: 55px;
+    line-height: 25px;
+  }
+
+  .dis-card-item-wrapper .dis-course-card .dis-course-card-details .dis-course-card-info h3.dis-course-card-title a {
+    font-size: 16px;
+  }
 }
