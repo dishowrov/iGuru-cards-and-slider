@@ -553,7 +553,6 @@
   position: relative;
   border-radius: 11px;
   text-align: center;
-  background: url("../assets/img/categories_bg.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -624,6 +623,18 @@
   background-color: #ffffff;
   vertical-align: bottom;
   transition: 0.35s;
+}
+.dis-categories-slider-container a.dis-slider-item-1 {
+  background: url("../assets/img/categories_bg-01.jpg");
+}
+.dis-categories-slider-container a.dis-slider-item-2 {
+  background: url("../assets/img/categories_bg-02.jpg");
+}
+.dis-categories-slider-container a.dis-slider-item-3 {
+  background: url("../assets/img/categories_bg-03.jpg");
+}
+.dis-categories-slider-container a.dis-slider-item-4 {
+  background: url("../assets/img/categories_bg-04.jpg");
 }
 .dis-categories-slider-container .owl-nav button {
   position: absolute;

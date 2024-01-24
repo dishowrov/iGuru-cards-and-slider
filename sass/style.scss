@@ -655,7 +655,6 @@
         position: relative;
         border-radius: 11px;
         text-align: center;
-        background: url('../assets/img/categories_bg.jpg');
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
@@ -733,6 +732,22 @@
                 transition: 0.35s;
             }
         }
+    }
+
+    a.dis-slider-item-1 {
+        background: url('../assets/img/categories_bg-01.jpg');
+    }
+
+    a.dis-slider-item-2 {
+        background: url('../assets/img/categories_bg-02.jpg');
+    }
+
+    a.dis-slider-item-3 {
+        background: url('../assets/img/categories_bg-03.jpg');
+    }
+
+    a.dis-slider-item-4 {
+        background: url('../assets/img/categories_bg-04.jpg');
     }
 
     .owl-nav button {
