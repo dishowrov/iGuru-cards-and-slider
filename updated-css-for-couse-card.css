@@ -19,3 +19,29 @@
     font-size: 11px;
     padding: 6px 7px;
 }
+
+.dis-course-card .dis-course-card-details .dis-course-card-meta {
+    padding: 10px 20px;
+}
+
+.dis-course-card
+  .dis-course-card-details
+  .dis-course-card-meta
+  h6.dis-course-meta-students {
+      display: flex;
+      gap: 5px;
+}
+
+.dis-course-card
+  .dis-course-card-details
+  .dis-course-card-meta
+  h6.dis-course-meta-reviews {
+    display: flex;
+      gap: 5px;
+}
+
+.dis-course-card .dis-course-card-details .dis-course-card-meta button {
+    background-color: #00BDA6;
+    border: 2px solid #00BDA6;
+    border-radius: 5px;
+}
