@@ -1,0 +1,12 @@
+.dis-course-card {
+    display: block !important;
+    margin: 15px 0;
+}
+
+.dis-course-card .dis-course-card-thumbnail{
+    height: 315px;
+}
+
+.dis-course-card .dis-course-card-thumbnail img {
+    object-fit: cover
+}
