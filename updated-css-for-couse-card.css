@@ -1,55 +1,56 @@
 .dis-course-card {
     display: block !important;
-    margin: 15px 0;
+    margin: 15px 0 !important;
 }
 
 .dis-course-card .dis-course-card-thumbnail{
-    height: 315px;
+    height: 315px !important;
 }
 
 .dis-course-card .dis-course-card-thumbnail img {
-    object-fit: cover;
+    object-fit: cover !important;
 }
 
 .dis-course-card .dis-course-card-categories ul li {
-    margin-bottom: 5px;
+    margin-bottom: 5px !important;
 }
 
 .dis-course-card .dis-course-card-categories ul li a {
-    font-size: 11px;
-    padding: 6px 7px;
+    font-size: 11px !important;
+    padding: 6px 7px !important;
 }
 
 .dis-course-card .dis-course-card-details .dis-course-card-meta {
-    padding: 10px 20px;
+    padding: 10px 20px !important;
 }
 
 .dis-course-card
   .dis-course-card-details
   .dis-course-card-meta
   h6.dis-course-meta-students {
-      display: flex;
-      gap: 5px;
-    padding-right: 10px;
+      display: flex !important;
+      gap: 5px !important;
+    padding-right: 10px !important;
 }
 
 .dis-course-card
   .dis-course-card-details
   .dis-course-card-meta
   h6.dis-course-meta-reviews {
-    display: flex;
-      gap: 5px;
+    display: flex !important;
+      gap: 5px !important;
 }
 
 .dis-course-card .dis-course-card-details .dis-course-card-meta button {
-    text-align: center;
-    background-color: #00BDA6;
-    border: 2px solid #00BDA6;
-    border-radius: 5px;
-    padding: 0;
-    margin: 0 0 0 5px;
+    text-align: center !important;
+    background-color: #00BDA6 !important;
+    border: 2px solid #00BDA6 !important;
+    border-radius: 5px !important;
+    padding: 0 !important;
+    margin: 0 0 0 5px !important;
 }
 
 .dis-course-card .dis-course-card-details .dis-course-card-meta button bdi {
     color: #222 !important;
 }
+
