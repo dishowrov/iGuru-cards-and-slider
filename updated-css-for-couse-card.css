@@ -54,3 +54,31 @@
     color: #222 !important;
 }
 
+
+@media (min-width: 990.99px) and (max-width: 1200px) {
+  .dis-course-card
+  .dis-course-card-details
+  .dis-course-card-meta
+  h6.dis-course-meta-reviews {
+    margin: 0 25px 0 9px !important;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 991px) {
+  .dis-course-card
+  .dis-course-card-details
+  .dis-course-card-meta
+  h6.dis-course-meta-reviews {
+    margin: 0 15px 0 1px !important;
+  }
+}
+
+@media screen and (max-width: 599.98px) {
+  .dis-course-card
+  .dis-course-card-details
+  .dis-course-card-meta
+  h6.dis-course-meta-reviews {
+    margin: 0 5px 0 3px !important;
+  }
+}
+
