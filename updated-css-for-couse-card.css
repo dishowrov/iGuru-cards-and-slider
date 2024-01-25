@@ -8,5 +8,14 @@
 }
 
 .dis-course-card .dis-course-card-thumbnail img {
-    object-fit: cover
+    object-fit: cover;
+}
+
+.dis-course-card .dis-course-card-categories ul li {
+    margin-bottom: 5px;
+}
+
+.dis-course-card .dis-course-card-categories ul li a {
+    font-size: 11px;
+    padding: 6px 7px;
 }
