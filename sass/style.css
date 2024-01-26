@@ -636,11 +636,8 @@
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
 }
-.dis-categories-slider-container a.dis-slider-item-wrapper .dis-slider-contents .dis-cat-icon i {
-  position: relative;
-  font-size: 90px;
-  line-height: 1;
-  color: #ffffff;
+.dis-categories-slider-container a.dis-slider-item-wrapper .dis-slider-contents .dis-cat-icon img {
+  width: 85px;
 }
 .dis-categories-slider-container a.dis-slider-item-wrapper .dis-slider-contents h5.dis-cat-name {
   margin: 0;
