@@ -453,22 +453,27 @@
 .dis-blog-card .dis-blog-card-media .dis-blog-date h6.dis-blog-date-month {
   font-size: 10px;
   font-weight: 500;
+  font-style: normal;
 }
 .dis-blog-card .dis-blog-card-media .dis-blog-date h6.dis-blog-date-day {
   font-size: 36px;
   font-weight: 700;
+  font-style: normal;
 }
 .dis-blog-card .dis-blog-card-details .dis-blog-more-links {
   display: flex;
   align-items: center;
   color: #581244;
   padding: 23px 0 17px 0;
+  font-style: normal;
 }
 .dis-blog-card .dis-blog-card-details .dis-blog-more-links a {
   color: #581244;
   text-decoration: none;
+  font-style: normal;
 }
 .dis-blog-card .dis-blog-card-details .dis-blog-more-links a.dis-blog-categories {
+  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   margin-right: 7px;
@@ -487,6 +492,7 @@
   font-weight: 700;
   font-size: 16px;
   margin-left: 7px;
+  font-style: normal;
 }
 .dis-blog-card .dis-blog-card-details .dis-blog-more-links h6 a.dis-blog-author {
   color: #BABABA;
@@ -501,11 +507,13 @@
 }
 .dis-blog-card .dis-blog-card-details h3.dis-blog-card-title {
   margin: 0;
+  font-style: normal;
 }
 .dis-blog-card .dis-blog-card-details h3.dis-blog-card-title a {
   text-decoration: none;
   font-size: 24px;
   font-weight: 800;
+  font-style: normal;
   color: #2C2C2C;
   transition: all linear 0.3s;
   -webkit-transition: all linear 0.3s;
@@ -526,6 +534,7 @@
   position: relative;
   text-decoration: none;
   font-weight: 800;
+  font-style: normal;
   font-size: 16px;
   color: #FF6D34;
   transition: all linear 0.3s;
