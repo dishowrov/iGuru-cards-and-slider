@@ -638,6 +638,8 @@
 }
 .dis-categories-slider-container a.dis-slider-item-wrapper .dis-slider-contents .dis-cat-icon img {
   width: 85px;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
 }
 .dis-categories-slider-container a.dis-slider-item-wrapper .dis-slider-contents h5.dis-cat-name {
   margin: 0;

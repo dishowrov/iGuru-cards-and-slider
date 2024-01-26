@@ -757,7 +757,9 @@
 
                 img {
                     width: 85px;
-                }
+                    filter: grayscale(100%);
+                    -webkit-filter: grayscale(100%);
+}
 
             }
 
