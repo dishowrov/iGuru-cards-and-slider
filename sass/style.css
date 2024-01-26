@@ -260,7 +260,6 @@
   -o-border-radius: 10px 10px 0 0;
 }
 .dis-instructor-card .dis-instructor-card-info {
-  background: url("../assets/img/peter_oldy-sign.png") no-repeat;
   padding: 0 30px 36px;
   background-repeat: no-repeat;
   background-position: 106% 94%;
@@ -344,6 +343,42 @@
   font-size: 16px;
   font-weight: 600;
   color: #FF6D34;
+}
+.dis-instructor-card .dis-instructor-1 {
+  background: url("https://skill-cert.com/wp-content/uploads/2024/01/angelina_may.png");
+}
+.dis-instructor-card .dis-instructor-2 {
+  background: url("https://skill-cert.com/wp-content/uploads/2024/01/tina_brown.png");
+}
+.dis-instructor-card .dis-instructor-3 {
+  background: url("https://skill-cert.com/wp-content/uploads/2024/01/peter_oldy.png");
+}
+.dis-instructor-card .dis-instructor-4 {
+  background: url("https://skill-cert.com/wp-content/uploads/2024/01/christina_chi.png");
+}
+.dis-instructor-card .dis-instructor-5 {
+  background: url("https://skill-cert.com/wp-content/uploads/2024/01/linda-felch.png");
+}
+.dis-instructor-card .dis-instructor-6 {
+  background: url("https://skill-cert.com/wp-content/uploads/2024/01/kris-nolan.png");
+}
+.dis-instructor-card .dis-instructor-7 {
+  background: url("https://skill-cert.com/wp-content/uploads/2024/01/miranda-stoun.png");
+}
+.dis-instructor-card .dis-instructor-8 {
+  background: url("https://skill-cert.com/wp-content/uploads/2024/01/jordan-smith.png");
+}
+.dis-instructor-card .dis-instructor-9 {
+  background: url("https://skill-cert.com/wp-content/uploads/2024/01/team_sign_grider.png");
+}
+.dis-instructor-card .dis-instructor-10 {
+  background: url("https://skill-cert.com/wp-content/uploads/2024/01/team_sign_leto.png");
+}
+.dis-instructor-card .dis-instructor-11 {
+  background: url("https://skill-cert.com/wp-content/uploads/2024/01/team_sign_davis.png");
+}
+.dis-instructor-card .dis-instructor-12 {
+  background: url("https://skill-cert.com/wp-content/uploads/2024/01/team_sign_brown.png");
 }
 
 .dis-blog-card {
